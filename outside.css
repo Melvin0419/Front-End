@@ -1,0 +1,33 @@
+h2{
+    color:rgb(4, 59, 7);
+
+}
+
+.food{
+    color: darkcyan;
+}
+
+.course{
+    color: deeppink;
+}
+
+
+#id1,#id2{
+    background-color: darkseagreen;
+}
+
+.class1:hover, #id1:hover{
+    background-color: darkseagreen;
+}
+
+* {
+    background-color:white;
+}
+
+[type]:hover{
+    background-color: darkseagreen;
+}
+
+ul li{
+    color: coral;
+}

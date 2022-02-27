@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"><meta/>
+        <title>page2</title>
+    </head>
+    <body>
+
+        <!-- color -->
+        <h2 style="border:5px solid rgb(0, 255, 55);">第二頁des</h2>
+        <p style = "background-color: aqua;">
+            內文des
+        </p>
+
+        <!-- padding & marging -->
+        <!-- 調整上下左右的px, margin可以設負數 -->
+        
+        <div style = "padding:40px 60px 30px 60px; 
+                      margin:40px 40px 10px 50px; 
+                      border:20px;
+                      background-color: aquamarine;">
+            Welcome to YC's blog, hope u enjoy.    
+        </div>
+
+        <!-- float & display -->
+        <ul style = "float: left; margin: 0px; color: rgb(187, 127, 255);">
+            <li>About me</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+
+        <p style = "margin-left: 160px ;">
+            Hi, I'm YC Hsieh. I am a Taiwanese. 
+            <br/>
+            I have a girlfriend. We've been dating for over two years. That's a long period of time.
+        </p>
+        <br/>
+        <p style="display: inline;">把p用display:inline</p>
+        <p style="display: inline;">留在同一行裡面</p>
+
+        <span style="display: block;">本來同一行的span</span>
+        <span style="display: block;">用display:block換成一整行</span>
+
+        <!-- position(fixed(固定在畫面上), absolute(不管其他人, except外層有relative), relative(在相對其他人的位置之後,進行偏移)) -->
+
+        <div style = " padding:30px; border: 10px solid; color: brown;">
+            <div style = " top:0px; right:0px; padding : 30px; border: 5px solid; color: blueviolet;">
+                <div style = "position:relative; top:100px; left:0px; background-color:cadetblue; height: 50px; width: 40px;"></div>
+            </div>
+        </div>
+
+        <div style = "position: fixed; top:0px; right:0px; background-color: chocolate; height: 50px; width:50px;"></div>
+
+
+
+        <a href = "index.html">home</a>
+    </body>
+</html>
+
